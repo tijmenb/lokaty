@@ -32,6 +32,13 @@ So if your website is for German, US and Dutch vistors, and you want to default 
 Lokaty::Guess.new(the_ip, only: %w[de nl us], fallback: 'us').country_code # => 'us'
 ```
 
+
+## Installation
+
+```ruby
+gem 'lokaty', github: 'tijmenb/lokaty'
+```
+
 ## Contributing
 
 1. Fork it
